@@ -1,0 +1,11 @@
+{
+  "wrongData1": ["standard_user","secret_saucee"],
+  "wrongData2": ["standard_usere","secret_sauce"],
+  "wrongData3": ["standard_usere","secret_saucee"],
+  "noData1": [["backpack"]],
+  "noData2": [["backpack","jacket","bike"]],
+  "someData1": [["backpack"],"standard","user"],
+  "someData2": [["backpack","jacket","bike"],"standard","user"],
+  "allData1": [["backpack"],"standard","user","123"],
+  "allData2": [["backpack","jacket","bike"],"standard","user","123"]
+}

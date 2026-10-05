@@ -47,8 +47,7 @@ public class BaseTest {
         if (result.getStatus()==ITestResult.FAILURE){
             log.info("test case failed taking a screenshot");
             File image =ScreenShot.takeScreenShot(driver);
-            //TODO: fix the null test name
-            Allure.addAttachment("Failure screenshot for TC: "+result.getTestName(),"image/png", FileUtils.openInputStream(image),"png");
+            Allure.addAttachment("Failure screenshot for TC: "+result.getMethod().getMethodName(),"image/png", FileUtils.openInputStream(image),"png");
         }
     }
     @AfterMethod
